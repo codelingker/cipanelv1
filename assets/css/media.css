@@ -1,0 +1,112 @@
+@media screen and (max-width: 1030px) {
+    .section-content .card {
+        width: calc(100% / 3 - 3%); 
+        margin-bottom: 20px;
+    }
+    .keranjang-group, .keranjang-detail {
+        width: 100%;
+    }
+    .keranjang-group {
+        margin: 0;
+    }
+    .keranjang-detail {
+        margin-top: 30px;
+    } 
+    .footer-inline .widget h2 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 768px) {
+   .header-left, .credit {
+       left: -100%;
+   }
+   .btn-navmenu {
+       left: 0;
+       width: 50px;
+   }   
+   .act-navmenu .header-left, .act-navmenu .credit {
+        left: 0;
+    }
+    .act-navmenu .btn-navmenu {
+        left: 0;
+    }
+    .act-navmenu .btn-navmenu button:before {
+        content: "\f060";
+    }
+    
+    main {
+        margin-top: 50px;
+        padding: 20px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    header, .webTitle {
+        height: 50px;
+    }
+    .webTitle {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        justify-content: flex-start;
+        transition: all 400ms ease;
+    }
+    .act-navmenu .webTitle {
+        left: -100%;
+    }
+    .webTitle a {
+        color: #f38a00;
+    }
+    .webTitle h1 {
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+    .btn-navmenu {
+        width: 100%;
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+    .btn-navmenu button {
+        z-index: 12;
+    }
+    .act-navmenu .header-right {
+        bottom: -100%;
+    }
+    .header-right {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+        height: 45px;
+        justify-content: center;
+        transition: all 300ms ease;
+    }
+    .navmenu {
+        max-height: calc(100vh - 65px - 100px);
+    }
+    .n-wrap > li {
+        padding: 0 40px;
+    }
+    .n-wrap > li:last-child {
+        border-left: 0;
+        margin-left: 0;
+        padding-left: 40px;
+    }
+    .n-wrap .dropdown-menu-right {
+        top: -7px!important;
+    }
+}
+@media screen and (max-width: 420px) {
+    
+}
+@media screen and (max-width: 320px) {
+    .act-cart-item button {
+        font-size: 12px;
+        padding: 3px 7px;
+    }
+    .field-input {
+        width: 110px;
+    }
+}

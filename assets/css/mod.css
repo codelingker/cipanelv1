@@ -1,0 +1,184 @@
+/* Global Setting */
+ul {
+    list-style: circle;
+}
+button, input, button:focus, input:focus {
+    outline: none;
+}
+
+/* bootstarap */
+.badge {
+    font-weight: normal;
+    font-size: 11px;
+    padding: 4px 6px;
+}
+.btn-sm {
+    font-size: 13px;
+}
+.btn-primary, .badge-primary, .btn-outline-primary:hover, a.badge-primary:focus, a.badge-primary:active {
+    background-color: #003ba8;
+    border-color: #003ba8;
+    color: #fff;
+}
+.btn-outline-primary:focus, .btn-primary:focus, a.badge-primary:focus, a.badge-primary:active  {
+    box-shadow: 0 0 0 0.2rem rgba(0, 79, 224, 0.5)!important;
+
+} 
+.btn-outline-primary {
+    border-color: #003ba8;
+    color: #003ba8;
+}
+
+.btn-info, .badge-info {
+    background-color: #990399;
+    border-color: #990399;
+}
+.btn-info:hover, .btn-outline-info:hover, .btn-outline-info:focus, .btn-info:active, .btn-info:focus, a.badge-info:hover, a.badge-info:focus {
+    background-color: #800080!important;
+    border-color: #800080;
+    color: #fff;
+}
+.btn-info:focus, .btn-info:active, .btn-outline-info:focus, .btn-outline-info:active, a.badge-info:active, a.badge-info:focus {
+    box-shadow: 0 0 0 0.2rem rgba(163, 58, 195, 0.5)!important;
+}
+.btn-outline-info {
+    border-color: #800080;
+    color: #800080;
+}
+.btn-warning, .badge-warning {
+    background-color: #e7a515;
+    border-color: #e7a515;
+    color: #fff;
+}
+.btn-outline-warning {
+    border-color: #e7a515;
+    color: #ce9212;
+}
+.btn-outline-warning:hover, a.badge-warning:focus, a.badge-warning:active {
+    background-color: #e7a515;
+    border-color: #e7a515;
+    color: #fff;
+}
+.btn-outline-warning:active, .badge-warning {
+    color: #fff!important;
+}
+.btn-warning:hover, .btn-warning:focus {
+    color: #fff!important;
+    background-color: #d18f00;
+    border-color: #d18f00;
+}
+.text-info {
+    color: #990399!important;
+}
+a.text-info:hover {
+    color: #800080!important;
+}
+
+.bg-info {
+    background-color: #990399!important;
+}
+.bg-primary {
+    background-color: #003ba8!important;
+}
+.alert {
+    font-size: 15px;
+}
+.with-icon {
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.close-only {
+    padding-right: 30px;
+}
+.alert-icon-only {
+    padding-left: 35px;
+}
+.alert .alert-link {
+    color: #ddd;
+}
+.alert .close {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 7px 7px 12px 15px;
+    border-bottom-left-radius: 50px;
+    color: #fff;
+    font-size: 15px!important;
+}
+
+.alert-dark .close, .alert-dark .alert-icon {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.alert-icon {
+    padding: 7px 17px 15px 7px;
+    font-size: 11px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom-right-radius: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+.alert-secondary .alert-link, .alert-light .alert-link {
+    color: #555;
+}
+.alert-info {
+    background-color: #990399!important;
+    border-color: #990399!important;
+    color: #fff;
+}
+.alert-primary {
+    background-color: #003ba8!important;
+    border-color: #003ba8!important;
+    color: #fff;
+}
+.alert-success {
+    background-color: #28a745!important;
+    border-color: #28a745!important;
+    color: #fff;
+}
+.alert-warning {
+    background-color: #e7a108!important;
+    border-color: #e7a108!important;
+    color: #fff;
+}
+.alert-dark {
+    background-color: #333!important;
+    border-color: #333!important;
+    color: #fff;
+
+}
+.form-control {
+    border-color: rgba(0,0,0,0.3);
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 181, 14, 0.5)!important;
+    border-color: #efa62d;
+}
+
+/* datatables */
+.dataTables_info {
+    font-size: 13px;
+    color: rgba(0,0,0,0.7);
+    margin-top: 20px;
+}
+.dataTables_paginate {
+    padding-top: 20px;
+}
+.page-item.active .page-link {
+    background-color: #db6403;
+    border-color: #db6403;
+}
+.page-link {
+    color: #ff7300;
+    font-weight: 500;
+    font-size: 14px;
+}
+.page-item.active .page-link:focus, .page-link:focus {
+    box-shadow: 0 0 0 0.2rem rgba(241, 151, 15, 0.25);
+}
+.page-link:hover {
+    color: #db6403;
+} 
